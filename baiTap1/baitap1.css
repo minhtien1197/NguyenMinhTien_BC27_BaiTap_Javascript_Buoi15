@@ -1,0 +1,20 @@
+#khuVuc, #doiTuong {
+    width: 185px;
+    height: 30px;
+    text-align: center;
+}
+.row {
+    text-align: center;
+}
+.col-4 {
+    margin-top: 30px;
+}
+.btn {
+    width: 500px;
+    margin-top: 50px;
+   
+}
+#result {
+    padding-top: 30px;
+    font-size: 20px;
+}

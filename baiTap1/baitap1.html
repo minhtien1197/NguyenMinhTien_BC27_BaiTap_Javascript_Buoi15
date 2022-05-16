@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.0.2 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/baiTap1/baitap1.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <h1>QUẢN LÝ TUYỂN SINH</h1>
+        <div class=""></div>
+        <div class="col-4">
+          <p>Điểm chuẩn</p>
+          <input type="number" id="diemChuan" />
+        </div>
+        <div class="col-4">
+          <p>Khu vực ưu tiên</p>
+          <select name="khuVucUuTien" id="khuVuc">
+            <option>Chọn khu vực</option>
+            <option value="A">Khu vực A</option>
+            <option value="B">Khu vực B</option>
+            <option value="C">Khu vực C</option>
+          </select>
+        </div>
+        <div class="col-4">
+          <p>Đối tượng ưu tiên</p>
+          <select name="doiTuongUuTien" id="doiTuong">
+            <option>Chọn đối tượng</option>
+            <option value="DT1">Đối tượng 1</option>
+            <option value="DT2">Đối tượng 2</option>
+            <option value="DT3">Đối tượng 3</option>
+          </select>
+        </div>
+        <div class="col-4">
+          <p>Điểm môn thứ 1</p>
+          <input type="number" id="diem1" />
+        </div>
+        <div class="col-4">
+          <p>Điểm môn thứ 2</p>
+          <input type="number" id="diem2" />
+        </div>
+        <div class="col-4">
+          <p>Điểm môn thứ 3</p>
+          <input type="number" id="diem3" />
+        </div>
+        <div class="text-center">
+          <button class="btn btn-success" onclick="baitap1()">Kết quả</button>
+          <div id="result" style="display: none"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap JavaScript Libraries -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="/baiTap1/baitap1.js"></script>
+  </body>
+</html>
